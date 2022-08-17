@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Notes App</string>
+    <string name="my_notes">我的筆記</string>
+    <string name="search_notes">搜尋筆記</string>
+    <string name="note_title">筆記標題</string>
+    <string name="note_subtitle">筆記子標題</string>
+    <string name="type_note_here">在此處輸入內容...</string>
+    <string name="pick_color">請選擇顏色</string>
+    <string name="miscellaneous">主題顏色</string>
+</resources>
