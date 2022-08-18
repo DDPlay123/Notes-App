@@ -7,4 +7,12 @@
     <string name="type_note_here">在此處輸入內容...</string>
     <string name="pick_color">請選擇顏色</string>
     <string name="miscellaneous">主題顏色</string>
+    <string name="add_image">新增圖片</string>
+    <string name="add_url">新增網址</string>
+    <string name="input_url">請輸入網址</string>
+    <string name="add">新增</string>
+    <string name="cancel">取消</string>
+    <string name="advanced_options">進階選項</string>
+    <string name="delete_note">刪除筆記</string>
+    <string name="are_you_sure_delete_this_note">你確定要刪除筆記嗎？</string>
 </resources>

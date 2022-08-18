@@ -63,7 +63,7 @@
                 android:textColor="@color/colorWhite"
                 android:textColorHint="@color/colorTextHint"
                 android:textSize="@dimen/_16ssp"
-                app:layout_constraintTop_toBottomOf="@id/img_back"/>
+                app:layout_constraintTop_toBottomOf="@id/img_back" />
 
             <androidx.appcompat.widget.AppCompatTextView
                 android:id="@+id/tv_date_time"
@@ -75,7 +75,7 @@
                 android:textSize="@dimen/_10ssp"
                 app:layout_constraintEnd_toEndOf="@id/ed_note_title"
                 app:layout_constraintStart_toStartOf="@id/ed_note_title"
-                app:layout_constraintTop_toBottomOf="@id/ed_note_title"/>
+                app:layout_constraintTop_toBottomOf="@id/ed_note_title" />
 
             <androidx.appcompat.widget.AppCompatEditText
                 android:id="@+id/ed_note_subtitle"
@@ -109,6 +109,70 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="@id/ed_note_subtitle" />
 
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/img_note"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:layout_marginEnd="@dimen/_12sdp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/app_name"
+                android:visibility="gone"
+                app:layout_constraintTop_toBottomOf="@id/ed_note_subtitle"
+                tools:src="@drawable/ic_image_24"
+                tools:tint="@color/colorTextHint"
+                tools:visibility="visible" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/img_remove_image"
+                android:layout_width="@dimen/_24sdp"
+                android:layout_height="@dimen/_24sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:background="@drawable/background_delete"
+                android:contentDescription="@string/app_name"
+                android:padding="@dimen/_4sdp"
+                android:src="@drawable/ic_delete_24"
+                android:tint="@color/colorWhite"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="@+id/img_note"
+                app:layout_constraintTop_toTopOf="@id/img_note"
+                tools:visibility="visible" />
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/layout_web_url"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginEnd="@dimen/_12sdp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                app:layout_constraintTop_toBottomOf="@id/img_note"
+                tools:visibility="visible">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_web_url"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:autoLink="web"
+                    android:fontFamily="@font/ubuntu_regular"
+                    android:includeFontPadding="false"
+                    android:textSize="@dimen/_13ssp" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/img_remove_web_url"
+                    android:layout_width="@dimen/_24sdp"
+                    android:layout_height="@dimen/_24sdp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ic_delete_24"
+                    android:tint="@color/colorDelete" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
             <androidx.appcompat.widget.AppCompatEditText
                 android:id="@+id/ed_note"
                 android:layout_width="match_parent"
@@ -128,14 +192,14 @@
                 android:textColorHint="@color/colorTextHint"
                 android:textSize="@dimen/_13ssp"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/ed_note_subtitle" />
+                app:layout_constraintTop_toBottomOf="@id/layout_web_url" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.core.widget.NestedScrollView>
 
     <include
-        android:id="@+id/layout_note_color"
-        layout="@layout/layout_miscellaneous"/>
+        android:id="@+id/layout_note_option"
+        layout="@layout/layout_miscellaneous" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

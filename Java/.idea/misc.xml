@@ -9,6 +9,8 @@
         <entry key="..\:/Users/a7032/Desktop/Notes App/Java/app/src/main/res/drawable-v24/background_note_color_4.xml" value="0.219" />
         <entry key="..\:/Users/a7032/Desktop/Notes App/Java/app/src/main/res/drawable-v24/background_note_color_5.xml" value="0.219" />
         <entry key="..\:/Users/a7032/Desktop/Notes App/Java/app/src/main/res/drawable/background_add_button.xml" value="0.214" />
+        <entry key="..\:/Users/a7032/Desktop/Notes App/Java/app/src/main/res/drawable/background_delete.xml" value="0.239" />
+        <entry key="..\:/Users/a7032/Desktop/Notes App/Java/app/src/main/res/drawable/background_dialog.xml" value="0.219" />
         <entry key="..\:/Users/a7032/Desktop/Notes App/Java/app/src/main/res/drawable/background_done_button.xml" value="0.214" />
         <entry key="..\:/Users/a7032/Desktop/Notes App/Java/app/src/main/res/drawable/background_miscellaneous.xml" value="0.219" />
         <entry key="..\:/Users/a7032/Desktop/Notes App/Java/app/src/main/res/drawable/background_note.xml" value="0.219" />
@@ -19,9 +21,13 @@
         <entry key="..\:/Users/a7032/Desktop/Notes App/Java/app/src/main/res/drawable/background_note_color_5.xml" value="0.219" />
         <entry key="..\:/Users/a7032/Desktop/Notes App/Java/app/src/main/res/drawable/background_search.xml" value="0.214" />
         <entry key="..\:/Users/a7032/Desktop/Notes App/Java/app/src/main/res/drawable/background_subtitle_indicator.xml" value="0.214" />
+        <entry key="..\:/Users/a7032/Desktop/Notes App/Java/app/src/main/res/drawable/ic_image_24.xml" value="0.239" />
         <entry key="..\:/Users/a7032/Desktop/Notes App/Java/app/src/main/res/layout/activity_create_note.xml" value="0.358695652173913" />
         <entry key="..\:/Users/a7032/Desktop/Notes App/Java/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/a7032/Desktop/Notes App/Java/app/src/main/res/layout/dialog_add_url.xml" value="0.17603850050658562" />
+        <entry key="..\:/Users/a7032/Desktop/Notes App/Java/app/src/main/res/layout/dialog_delete_note.xml" value="0.3619791666666667" />
         <entry key="..\:/Users/a7032/Desktop/Notes App/Java/app/src/main/res/layout/item_container_note.xml" value="0.33" />
+        <entry key="..\:/Users/a7032/Desktop/Notes App/Java/app/src/main/res/layout/layout_add_url.xml" value="0.358695652173913" />
         <entry key="..\:/Users/a7032/Desktop/Notes App/Java/app/src/main/res/layout/layout_miscellaneous.xml" value="0.358695652173913" />
       </map>
     </option>

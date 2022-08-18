@@ -86,16 +86,16 @@
 
         <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/img_add_note"
-            android:layout_width="@dimen/_23sdp"
-            android:layout_height="@dimen/_23sdp"
+            android:layout_width="@dimen/_24sdp"
+            android:layout_height="@dimen/_24sdp"
             android:contentDescription="@string/app_name"
             android:src="@drawable/ic_add_circle_outline_24"
             android:tint="@color/colorIcons" />
 
         <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/img_add_image"
-            android:layout_width="@dimen/_23sdp"
-            android:layout_height="@dimen/_23sdp"
+            android:layout_width="@dimen/_24sdp"
+            android:layout_height="@dimen/_24sdp"
             android:layout_marginStart="@dimen/_15sdp"
             android:contentDescription="@string/app_name"
             android:src="@drawable/ic_image_24"
@@ -103,8 +103,8 @@
 
         <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/img_add_web_link"
-            android:layout_width="@dimen/_23sdp"
-            android:layout_height="@dimen/_23sdp"
+            android:layout_width="@dimen/_24sdp"
+            android:layout_height="@dimen/_24sdp"
             android:layout_marginStart="@dimen/_15sdp"
             android:contentDescription="@string/app_name"
             android:src="@drawable/ic_language_24"

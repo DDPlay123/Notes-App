@@ -19,8 +19,13 @@ public class ToastManager {
     private Toast toast = null;
 
     public void showToast(Activity activity, String content, Boolean isShort) {
-        if (toast != null) toast.cancel();
+        cancelToast();
         toast = Toast.makeText(activity, content, (isShort) ? Toast.LENGTH_SHORT : Toast.LENGTH_LONG);
         toast.show();
+    }
+
+    public void cancelToast() {
+        if (toast != null)
+            toast.cancel();
     }
 }
